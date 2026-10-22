@@ -48,5 +48,13 @@
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.0",
     "typescript": "^5"
+  },
+  "overrides": {
+    "source-map-js": "1.2.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "source-map-js": "1.2.2"
+    }
   }
 }
