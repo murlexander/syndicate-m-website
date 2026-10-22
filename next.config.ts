@@ -17,11 +17,6 @@ const nextConfig: NextConfig = {
   },
   // Exclude tmp from static generation
   trailingSlash: true,
-  // Add custom ignore patterns
-  eslint: {
-    ignoreDuringBuilds: false,
-    dirs: ["src"],
-  },
   typescript: {
     ignoreBuildErrors: false,
     tsconfigPath: "./tsconfig.json",
